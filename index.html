@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>vetores</title>
+    </head>
+    <body>
+<h1>meu primeiro vetor</h1>
+<script>
+
+    //variaveis
+    var nome = "joao"
+    let numero = 10;
+    const conteudo = "frontend"
+       
+    //vetores
+    var nomes = ["joao", "marcio", "vinicius"]
+    let numeros = [1,2,5,10];
+    const conteudos = ["frontend", "backend"];
+
+
+   //vetor
+   var elementos = ['t', 'e', 'c', 'n', 'i', 'c', 'o'];
+    document.write("<br> Vetor elementos = "+elementos);
+    var tamanho = elementos.length;
+    for(let i = 0; i < tamanho; i++){
+        document.write("<br> com for indice "+i+" = "+elementos[i]);
+    }
+
+    document.write("<br> indice 0 = "+elementos[0]);
+    document.write("<br> indice 1 = "+elementos[1]);
+    document.write("<br> indice 2 = "+elementos[2]);
+    document.write("<br> indice 3 = "+elementos[3]);
+    document.write("<br> indice 4 = "+elementos[4]);
+    document.write("<br> indice 5 = "+elementos[5]);
+    document.write("<br> indice 6 = "+elementos[6]);
+    //elementos
+    elementos.push('s')
+    document.write("<br> Vetor elementos = "+elementos);
+
+    //remover 
+    elementos.pop();
+    document.write("<br> vetor elementos = "+elementos);
+
+
+    //tamanho
+    var tamanho = elementos.length;
+    document.write("<br> tamanho do vetor = "+tamanho);
+
+  </script>
+    </body>
+</html>
